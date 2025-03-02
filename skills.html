@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Section</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .nav-link {
+            color: white !important;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+        .nav-link:hover {
+            color: green !important;
+            text-decoration: underline;
+        }
+        .nav-link.active {
+            color: green !important;
+            border-bottom: 2px solid red;
+        }
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #080202;
+    margin: 0;
+    padding: 0;
+}
+
+.skills-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.category {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.icons img {
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+.logo {
+            
+            top: 150px;
+            left: 200px;
+            background: rgb(0,0,0,0.1);
+            color: white;
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 980px;
+        }
+        .logo span {
+            color: red;
+        }
+        h5{
+            color: white;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+</style>
+<body>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+              
+              <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">  
+
+                   
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="file:///C:/Users/SRI%20VIDHYA/hi/portfolio1/index.html#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="file:///C:/Users/SRI%20VIDHYA/hi/portfolio1/about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="file:///C:/Users/SRI%20VIDHYA/hi/portfolio1/project.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="file:///C:/Users/SRI%20VIDHYA/hi/portfolio1/skills.html">skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="file:///C:/Users/SRI%20VIDHYA/hi/portfolio1/contact.html">Contact</a>
+                  </li>
+                
+                  <div class="logo">puli srividhya<span>.</span></div>
+                
+                  
+                </ul>
+            
+               
+              </div>
+            </div>
+          </nav>
+          </nav>
+    </div>
+    <h5>Skills________________</h5>
+    <div class="skills-container">
+        <!-- Languages and Databases -->
+        <div class="category">
+            <h2>Languages and Databases</h2>
+            <div class="icons">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.d9zqBJuglfpGLzG4_HOf-gHaEK&pid=Api&P=0&h=180" alt="Python">
+                <img src="https://tse2.mm.bing.net/th?id=OIP._Lm_T3scKhVEVFC54gcRxwHaE8&pid=Api&P=0&h=180" alt="Java">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.lxMbLFRw0sgOlOwjC62ySwHaKc&pid=Api&P=0&h=180" alt="HTML5">
+                <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png" alt="CSS3">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.DEt_TbohHcb6KhpldP6vMwHaEK&pid=Api&P=0&h=180" alt="JavaScript">
+                <img src="https://pngimg.com/uploads/mysql/mysql_PNG35.png" alt="MySQL">
+            </div>
+        </div>
+
+        <!-- Frameworks -->
+       <!-- <div class="category">
+            <h2>Frameworks</h2>
+            <div class="icons">
+                <img src="flask-logo.png" alt="Flask">
+                <img src="django-logo.png" alt="Django">
+                <img src="react-logo.png" alt="React">
+                <img src="opencv-logo.png" alt="OpenCV">
+                <img src="numpy-logo.png" alt="NumPy">
+                <img src="pandas-logo.png" alt="Pandas">
+                <img src="matplotlib-logo.png" alt="Matplotlib">
+                <img src="sklearn-logo.png" alt="Scikit-learn">
+            </div>
+        </div>-->
+
+        <!-- Tools -->
+        <div class="category">
+            <h2>Tools</h2>
+            <div class="icons">
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="GitHub">
+                
+                
+                <img src="https://logowik.com/content/uploads/images/eclipse5466.jpg" alt="ecllipse">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.4g12a0DHzDmj1m9P7V7X8gHaDz&pid=Api&P=0&h=180" alt="Visual Studio Code">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.-9IMVwK227wl3OV8fUOCewHaEK&pid=Api&P=0&h=180" alt="unity">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.i6-2AQ-mnxwGkLC5dHrKVQHaHa&pid=Api&P=0&h=180" alt="blender">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        navLinks.forEach(link => {
+            link.addEventListener("click", function () {
+                // Remove 'active' class from all links
+                navLinks.forEach(nav => nav.classList.remove("active"));
+
+                // Add 'active' class to the clicked link
+                this.classList.add("active");
+            });
+        });
+    });
+ </script>
+</html>
